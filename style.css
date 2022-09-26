@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Alata', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.top {
+    background-image: url(/img/desktop/image-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 57vh;
+    margin-bottom: 10%;
+    font-family: 'Alata', sans-serif;
+}
+.navigation {
+    display: flex;
+}
+.logo {
+    margin: 70px;
+    margin-left: 225px;
+    width: 83%;
+}
+.hamburger-menu {
+    visibility: hidden;
+}
+.navigation-div {
+    width: 100%;
+    margin-top: 55px;
+    margin-left: 43%;
+}
+nav > ul {
+    display: flex;
+    list-style-type: none;
+    color: white;
+}
+nav > ul > li {
+    margin-right: 5%;
+    cursor: grabbing;
+}
+.navigation-div li {
+    position: relative;
+}
+.navigation-div li::after {
+    background: none repeat scroll 0 0  transparent;
+    bottom: 0;
+    top: 25px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.navigation-div li:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+
+.hero {
+    position: absolute;
+    margin-top: -43%;
+}
+h1 {
+    width: 35%;
+    color: white;
+    font-size: 70px;
+    font-weight: 400;
+    padding: 40px;
+    margin-left: 220px;
+    text-transform: uppercase;
+    border: 3px solid white;
+}
+
+
+
+
+
+.leader {
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+.leader > div img {
+    width: 47%;
+    margin-left: 10%;
+    margin-top: -20px;
+}
+
+.leader > div:nth-child(2) {
+    width: 50%;
+    padding: 5%;
+    padding-top: 3%;
+    position: absolute;
+    z-index: 2;
+    margin-top: -19%;
+    margin-left: 47%;
+    background-color: white;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 40px;
+    width: 70%;
+}
+
+.leader > div p {
+    font-size: 16px;
+    font-weight: bold;
+    color: hsl(0, 0%, 41%);
+    line-height: 25px;
+    width: 57%;
+}
+
+
+
+
+.creations {
+    text-align: center;
+}
+.creations > div:nth-child(1) {
+    width: 96%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+.creations > div h2 {
+    margin-right: 16%;
+    width: 30%;
+}
+.creations > div button,
+.button-2
+ {
+    padding: 7px 30px 7px 30px;
+    margin-top: 33px;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 5px;
+    cursor: grabbing;
+}
+.button-2 {
+    visibility: hidden;
+}
+.creations img {
+    padding: 10px;
+}
+
+
+
+
+
+footer {
+    background-color: black;
+    /* padding-bottom: 1%; */
+    margin-top: 10%;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+footer > div:nth-child(1) {
+    display: flex;
+    width: 100%;
+    padding-top: 3%;
+}
+
+.image-div {
+    margin-left: 14.5%;
+    margin-right: 45%;
+}
+
+footer > div:nth-child(1) ul {
+    display: flex;
+    width: 100%;
+}
+
+footer > div:nth-child(1) ul li {
+    margin-right: 5%;
+}
+
+footer > div:nth-child(2) ul {
+    margin-left: 12%;
+}
+
+footer > div:nth-child(2) ul li {
+    margin-right: 17%;
+}
+
+h4 {
+    margin: 0px;
+    color: white;
+}
+
+.bottom-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -4px;
+}
+
+.bottom-div > nav {
+    margin-left: -26%;
+}
+
+.h4-div {
+    margin-right: -22%;
+}
+
+.h4-div h4 {
+    margin-top: 17px;
+    color: hsl(0, 0%, 41%);
+    font-weight: bolder;
+}
+
+footer > div:nth-child(2) ul {
+    margin-top: 0px;
+    padding: 20px;
+    padding-left: 0px;
+}
+
